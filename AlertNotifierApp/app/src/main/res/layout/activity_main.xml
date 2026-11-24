@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAirRaid"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="1"
+        android:text="@string/btn_air_raid"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/alert_red"
+        app:cornerRadius="18dp"
+        app:icon="@drawable/ic_alert_siren"
+        app:iconGravity="textStart"
+        app:iconPadding="12dp"
+        app:iconSize="28dp"
+        app:iconTint="@android:color/white" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnElevated"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="1"
+        android:text="@string/btn_elevated"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/alert_orange"
+        app:cornerRadius="18dp"
+        app:icon="@drawable/ic_alert_elevated"
+        app:iconGravity="textStart"
+        app:iconPadding="12dp"
+        app:iconSize="28dp"
+        app:iconTint="@android:color/white" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAllClear"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="1"
+        android:text="@string/btn_all_clear"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/alert_green"
+        app:cornerRadius="18dp"
+        app:icon="@drawable/ic_alert_clear"
+        app:iconGravity="textStart"
+        app:iconPadding="12dp"
+        app:iconSize="28dp"
+        app:iconTint="@android:color/white" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnMinuteSilence"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/btn_minute_silence"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/alert_slate"
+        app:cornerRadius="18dp"
+        app:icon="@drawable/ic_minute_silence"
+        app:iconGravity="textStart"
+        app:iconPadding="12dp"
+        app:iconSize="28dp"
+        app:iconTint="@android:color/white" />
+
+</LinearLayout>

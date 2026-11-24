@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Оповіщення про тривогу</string>
+
+    <string name="btn_air_raid">Повітряна тривога</string>
+    <string name="btn_elevated">Підвищений рівень</string>
+    <string name="btn_all_clear">Відбій повітряної тривоги</string>
+    <string name="btn_minute_silence">Хвилина мовчання</string>
+    <string name="btn_active_format">%1$s (зупинити)</string>
+
+    <string name="alert_air_raid_title">Повітряна тривога!</string>
+    <string name="alert_air_raid_message">Увага! Повітряна тривога. Пройдіть в укриття.</string>
+
+    <string name="alert_elevated_title">Підвищений рівень небезпеки!</string>
+    <string name="alert_elevated_message">Увага! Підвищений рівень загрози. Негайно перебувайте в безпечному місці.</string>
+
+    <string name="alert_all_clear_title">Відбій повітряної тривоги</string>
+    <string name="alert_all_clear_message">Відбій повітряної тривоги. Можна залишати укриття.</string>
+
+    <string name="alert_minute_silence_title">Хвилина мовчання</string>
+    <string name="alert_minute_silence_message">Увага, загальнонаціональна хвилина мовчання.</string>
+
+    <string name="notification_channel_name">Сповіщення про тривогу</string>
+    <string name="notification_channel_desc">Сигнали повітряної тривоги, підвищеного рівня, відбою та хвилини мовчання</string>
+</resources>
